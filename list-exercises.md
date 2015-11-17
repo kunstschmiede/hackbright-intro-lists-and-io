@@ -47,7 +47,6 @@ my_list[-1:-3]| []
 my_list[-3:-1]| ['five', 6]
 
 
-(remember to commit after editing this table to contain your answer, and removing this line!)
 
 # Review Time!
 
