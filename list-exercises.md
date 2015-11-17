@@ -31,7 +31,7 @@ my_list[4]
 
 ### How would I find the length of the list?
 
-- Your answer here (remember to commit after editing this line to contain your answer!)
+len([1, 2, "kitten",  4, "five"])
 
 ### Use the list below to complete the following table (the first one is done for you):
 my_list = [1, 2, “kitten”,  4, “five”, 6, 7]
