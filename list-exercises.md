@@ -16,7 +16,7 @@ my_list[2]
 
 ### How would I access the element at index 3? 
 
-my_list[4]
+my_list[3]
 
 ### What would I get if I did my_list[1]?
 
