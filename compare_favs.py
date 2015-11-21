@@ -5,11 +5,12 @@ hilary_favs = hilary_file.read().splitlines()
 hilary_file.close()
 
 
-#reading tonya's favorite foods file into a list
+# reading tonya's favorite foods file into a list
 tonya_file = open("tonya_fav_foods.txt")
 tonya_favs = tonya_file.read().splitlines()
 tonya_file.close()
 
+# compare if first favorite item in the lists is the same
 def compare_favs(a, b):
 	if (a[0] == b[0]):
 		print "Our favorite foods are the same!"
@@ -18,6 +19,7 @@ def compare_favs(a, b):
 
 compare_favs(hilary_favs, tonya_favs)
 
+# compare if any of the items in the list are the same
 def compare_favs2(a, b):
 	for x in a:
 		for y in b:
